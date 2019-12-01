@@ -22,12 +22,21 @@
       "type": "upload",
       "upload": true
     },
+
     {
       "name": "contentIndex",
       "label": "front page content",
       "group": "content",
       "value": "",
       "type": "wysiwyg"
+    },
+
+    {
+      "name": "colorsMenu",
+      "label": "menu color",
+      "group": "colors",
+      "value": "grey",
+      "type": "colorpicker"
     }
   ]
 }
