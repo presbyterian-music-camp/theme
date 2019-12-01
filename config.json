@@ -7,12 +7,27 @@
   },
   "customConfig": [
     {
-      "name": "favicon",
+      "name": "imagesFavicon",
       "label": "favicon",
       "group": "images",
       "value": "",
       "type": "smallupload",
       "upload": true
+    },
+    {
+      "name": "imagesBackground",
+      "label": "background",
+      "group": "images",
+      "value": "",
+      "type": "upload",
+      "upload": true
+    },
+    {
+      "name": "contentIndex",
+      "label": "front page content",
+      "group": "content",
+      "value": "",
+      "type": "wysiwyg"
     }
   ]
 }

@@ -1,1 +1,19 @@
-Header not yet implemented.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{@website.name}}</title>
+    <link rel='shortcut icon' type='image/png' href='{{@config.custom.imagesFavicon}}'/>
+  </head>
+  <body style='margin:0'>
+    {{#if @config.custom.imagesBackground}}
+      <img
+        style='
+          position: absolute;
+          width: 100vw;
+          height: 100vh;
+          object-fit: cover;
+          z-index: -1;
+        '
+        src='{{@config.custom.imagesBackground}}'
+      />
+    {{/if}}
