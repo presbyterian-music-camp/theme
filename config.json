@@ -1,0 +1,18 @@
+{
+  "name": "pmc",
+  "version": "2.0.0",
+  "author": "Daniel Eisner",
+  "menus": {
+    "mainMenu": "Main menu"
+  },
+  "customConfig": [
+    {
+      "name": "favicon",
+      "label": "favicon",
+      "group": "images",
+      "value": "",
+      "type": "smallupload",
+      "upload": true
+    }
+  ]
+}
