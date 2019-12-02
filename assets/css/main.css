@@ -1,18 +1,18 @@
 * {
   font-family: 'lacuna';
-  font-size: 100%;
 }
 
 .page {
   width: 80%;
-  max-width: 70em;
-  padding-left: 4em;
-  padding-right: 4em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-bottom: 8em;
-  border-radius: .25em;
+  max-width: 70rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 8rem;
+  border-radius: .25rem;
   opacity: 0.9;
+  font-size: 200%;
 }
 
 
