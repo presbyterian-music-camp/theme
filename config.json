@@ -24,6 +24,13 @@
     },
 
     {
+      "name": "contentIndexTop",
+      "label": "front page top content",
+      "group": "content",
+      "value": "",
+      "type": "wysiwyg"
+    },
+    {
       "name": "contentIndex",
       "label": "front page content",
       "group": "content",
@@ -32,10 +39,31 @@
     },
 
     {
-      "name": "colorsMenu",
-      "label": "menu color",
+      "name": "colorsBackground",
+      "label": "background",
       "group": "colors",
-      "value": "grey",
+      "value": "darkgrey",
+      "type": "colorpicker"
+    },
+    {
+      "name": "colorsMenu",
+      "label": "menu text",
+      "group": "colors",
+      "value": "lightgrey",
+      "type": "colorpicker"
+    },
+    {
+      "name": "colorsIndexTop",
+      "label": "front page top content color",
+      "group": "colors",
+      "value": "lightgrey",
+      "type": "colorpicker"
+    },
+    {
+      "name": "colorsPage",
+      "label": "page background",
+      "group": "colors",
+      "value": "lightgrey",
       "type": "colorpicker"
     }
   ]
