@@ -2,6 +2,18 @@
   font-family: 'lacuna';
 }
 
+.page {
+  width: 80%;
+  max-width: 70em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 8em;
+  border-radius: .25em;
+  opacity: 0.9;
+}
+
 /* Fonts from FontsForWeb.com */
 @font-face {
   font-family: 'lacuna';

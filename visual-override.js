@@ -4,6 +4,10 @@ return `/* visual-override.js */
 .menu-item, .menu-item:visited {
   color: ${params.colorsMenu};
 }
+
+.page {
+  background-color: ${params.colorsPage};
+}
 `;
 
 };
