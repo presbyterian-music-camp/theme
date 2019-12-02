@@ -1,3 +1,40 @@
 * {
-  font-family: helvetica;
+  font-family: 'lacuna';
+}
+
+/* Fonts from FontsForWeb.com */
+@font-face {
+  font-family: 'lacuna';
+  src: url('../fonts/lacuna/LACURG.eot');
+  src:
+    local('LACURG'),
+    url('../fonts/lacuna/LACURG.woff') format('woff'),
+    url('../fonts/lacuna/LACURG.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'planewalker';
+  src: url('../fonts/planewalker/Planewalker.eot');
+  src:
+    local('Planewalker'),
+    url('../fonts/planewalker/Planewalker.woff') format('woff'),
+    url('../fonts/planewalker/Planewalker.ttf') format('truetype');
+}
+
+
+/* Required by WYSIWYG editor */
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-justify {
+  text-align: justify;
 }
