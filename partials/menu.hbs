@@ -8,6 +8,7 @@
     {{#unless level}}
       display: flex;
       justify-content: flex-end;
+      margin-left: auto;
     {{/unless}}
   '
 >
@@ -16,7 +17,10 @@
       {{menuItemClasses}}
       style='
         {{#unless ../level}}
-          margin: 2em;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          margin-left: 0;
+          margin-right: 2rem;
         {{/unless}}
       '
     >

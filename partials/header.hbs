@@ -15,6 +15,9 @@
     height: 100vh;
     overflow-y: scroll;
   '>
-    <div>
+    <div style='display: flex; align-items: center;'>
+      {{#if @website.logo}}
+        <img src='{{@website.logo}}' style='height: 5rem; margin: 1rem;'>
+      {{/if}}
       {{>menu menus.mainMenu}}
     </div>
