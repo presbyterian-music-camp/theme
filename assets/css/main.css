@@ -15,6 +15,10 @@
   font-size: 200%;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 
 /* Fonts from FontsForWeb.com */
 @font-face {
