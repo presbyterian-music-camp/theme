@@ -65,6 +65,21 @@
       "group": "colors",
       "value": "lightgrey",
       "type": "colorpicker"
+    },
+
+    {
+      "name": "linksFacebook",
+      "label": "Facebook link",
+      "group": "links",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "linksInstagram",
+      "label": "Instagram link",
+      "group": "links",
+      "value": "",
+      "type": "text"
     }
   ]
 }

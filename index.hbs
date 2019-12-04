@@ -7,4 +7,16 @@
     {{{@config.custom.contentIndex}}}
   </div>
 </div>
+<div style='position: fixed; bottom: 0; right: 0'>
+  {{#if @config.custom.linksFacebook}}
+    <a href='{{@config.custom.linksFacebook}}'>
+      <img class='social-icon' src='{{@website.assetsUrl}}/svg/facebook.svg'/>
+    </a>
+  {{/if}}
+  {{#if @config.custom.linksInstagram}}
+    <a href='{{@config.custom.linksInstagram}}'>
+      <img class='social-icon' src='{{@website.assetsUrl}}/svg/instagram.svg'/>
+    </a>
+  {{/if}}
+</div>
 {{>footer}}

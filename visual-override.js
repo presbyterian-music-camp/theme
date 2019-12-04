@@ -8,6 +8,10 @@ return `/* visual-override.js */
 .page {
   background-color: ${params.colorsPage};
 }
+
+.social-icon {
+  background-color: ${params.colorsPage};
+}
 `;
 
 };

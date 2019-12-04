@@ -19,6 +19,15 @@
   text-decoration: underline;
 }
 
+.social-icon {
+  width: 5vh;
+  border-radius: .25rem;
+  opacity: 0.9;
+  padding: .5rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+
 
 /* Fonts from FontsForWeb.com */
 @font-face {
