@@ -28,6 +28,32 @@
   margin-bottom: .5rem;
 }
 
+h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 2px solid black;
+  border-radius: .25rem;
+}
+
+tr:first-child {
+  vertical-align: top;
+}
+
+td:not(:first-child) {
+  text-align: center;
+}
+
 
 /* Fonts from FontsForWeb.com */
 @font-face {
