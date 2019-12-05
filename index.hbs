@@ -4,7 +4,11 @@
     {{{@config.custom.contentIndexTop}}}
   </div>
   <div class='page'>
-    {{{@config.custom.contentIndex}}}
+    {{#each posts}}
+      {{#if postViewConfig.isFrontPage}}
+        {{{text}}}
+      {{/if}}
+    {{/each}}
   </div>
 </div>
 <div style='position: fixed; bottom: 0; right: 0'>
