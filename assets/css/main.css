@@ -60,6 +60,13 @@ td:not(:first-child) {
   text-align: center;
 }
 
+hr {
+  clear: both;
+  opacity: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 
 /* images */
 figure {
