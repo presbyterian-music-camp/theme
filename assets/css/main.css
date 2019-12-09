@@ -115,6 +115,8 @@ figure.post__image--left img {
 figure img {
   max-width: 45vw;
   height: auto;
+  width: unset;
+  height: unset;
 }
 
 figcaption {
