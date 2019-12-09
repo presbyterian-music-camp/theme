@@ -68,8 +68,6 @@ td:not(:first-child) {
 hr {
   clear: both;
   opacity: 0;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 
