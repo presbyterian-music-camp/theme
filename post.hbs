@@ -3,6 +3,9 @@
   <div class='page'>
     {{#post}}
       <h1 class='align-center'>{{title}}</h1>
+      {{#if @config.post.showAuthor}}
+        <p class='author'>By {{author.name}}</p>
+      {{/if}}
       {{{text}}}
     {{/post}}
   </div>
