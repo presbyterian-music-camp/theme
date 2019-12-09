@@ -77,22 +77,6 @@
   ],
   "postConfig": [
     {
-      "name": "isFrontPage",
-      "label": "Use as front page",
-      "value": 0,
-      "type": "select",
-      "options": [
-        {
-          "label": "Enabled",
-          "value": 1
-        },
-        {
-          "label": "Disabled",
-          "value": 0
-        }
-      ]
-    },
-    {
       "name": "showAuthor",
       "label": "Show author",
       "value": 0,
