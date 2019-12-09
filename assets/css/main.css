@@ -122,6 +122,7 @@ figure img {
 figcaption {
   text-align: center;
   font-style: italic;
+  line-height: 2em;
 }
 
 
