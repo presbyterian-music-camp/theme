@@ -70,6 +70,10 @@ hr {
   opacity: 0;
 }
 
+pre {
+  font-family: unset !important;
+}
+
 
 /* images */
 figure {
