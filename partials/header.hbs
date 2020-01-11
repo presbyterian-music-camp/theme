@@ -47,8 +47,11 @@
   '>
     <div style='display: flex; align-items: center;'>
       {{#if @website.logo}}
-        <a href='{{@website.url}}'>
-          <img src='{{@website.logo}}' style='height: 5rem; margin: 1rem;'>
+        <a href='{{@website.url}}' style='text-decoration: none'>
+          <div style='text-align: center'>
+            <img src='{{@website.logo}}' style='height: 5rem; margin: 1rem; margin-bottom: 0'>
+            <p class='menu-item' style='font-weight: bold'>HOME</p>
+          </div>
         </a>
       {{/if}}
       {{>menu menus.mainMenu}}
