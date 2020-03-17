@@ -24,6 +24,14 @@
     },
 
     {
+      "name": "cssIndex",
+      "label": "front page custom css",
+      "group": "css",
+      "value": "",
+      "type": "textarea"
+    },
+
+    {
       "name": "contentIndexTop",
       "label": "front page top content",
       "group": "content",

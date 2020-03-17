@@ -67,7 +67,8 @@ td:not(:first-child) {
 
 hr {
   clear: both;
-  opacity: 0;
+  border-top: 1px solid black;
+  margin: 2em;
 }
 
 pre {
