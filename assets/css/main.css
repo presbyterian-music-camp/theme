@@ -61,6 +61,10 @@ tr:first-child {
   vertical-align: top;
 }
 
+td {
+  padding: 0.25rem;
+}
+
 td:not(:first-child) {
   text-align: center;
 }
