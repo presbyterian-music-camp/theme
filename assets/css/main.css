@@ -121,8 +121,11 @@ figure.post__image--left img {
   float: right;
 }
 
-figure img {
+figure.post__image--left img, figure.post__image--center img, figure.post__image--right img {
   max-width: 45vw;
+}
+
+figure img {
   height: auto;
   width: unset;
   height: unset;
