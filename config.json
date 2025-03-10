@@ -121,6 +121,6 @@
     "tagsList": true,
     "customThemeOptionsCss": true,
     "pages": false,
-    "postsPage": true
+    "postsPage": false
   }
 }
